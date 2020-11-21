@@ -1,13 +1,16 @@
+@font-face {
+  font-family: "Noto sans";
+  src: url("../../assets/fonts/NotoSans-Regular.ttf");
+}
+
 .nav-item {
     display: flex;
     align-items: center;
     margin-left: 2rem;
     margin-right: 2rem;
-}
-
-.nav-item {
     color: black !important;
     font-weight: 500 !important;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
@@ -15,31 +18,11 @@
     border: none;
 }
 
-
-
 .discord-container {
     margin-left: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 48px;
-    width: 48px;
-    border-radius: 999px;
-    -webkit-box-shadow: 0px 10px 15px 0px rgba(54, 50, 50, 0.75);
-    -moz-box-shadow: 0px 10px 15px 0px rgba(54, 50, 50, 0.75);
-    box-shadow: 0px 10px 15px 0px rgba(54, 50, 50, 0.75);
-
+    height: 50px;
+    width: 50px;
 }
-
-.discord-container > img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 37px;
-    width: 37px;
-}
-
-
 
 @media screen and (max-width: 992px) {
     .discord-container {

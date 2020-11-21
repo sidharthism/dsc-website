@@ -36,9 +36,7 @@ function Navigation(){
                             Contact Us
                         </Nav.Link>
                         <Nav.Link href="https://discord.com/" target="_blank">
-                            <div className="discord-container">
-                                <img src={ discord } alt="Home"/>
-                            </div>
+                                <img className="discord-container" src={ discord } alt="Home"/>
                         </Nav.Link>
                     </Nav>
                     </Navbar.Collapse>

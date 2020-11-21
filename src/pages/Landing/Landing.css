@@ -1,6 +1,6 @@
 .landing {
-  margin: 2rem;
-  padding-top: 7rem;
+  /* margin: 2rem; */
+  padding: 7rem 2rem 2rem;
   display: flex;
   background: url("../../assets/img/bg-1024.png");
   background-repeat: no-repeat;
@@ -31,8 +31,6 @@
 .LeftHeaderLogo > img {
   height: 5.5rem;
 }
-
-
 
 .LeftHeaderText > h3 {
   color: #666666;

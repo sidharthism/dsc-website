@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 
 import logo from '../../assets/img/logo.svg'
-import logoFull from '../../assets/img/logo-full.png'
+import logoFull from '../../assets/svg/logo-full.svg'
 
 import './Landing.css'
 
