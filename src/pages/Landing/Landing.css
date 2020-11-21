@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 992px) {
   .landing {
-    padding-top: 7rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
   }
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 600px) {
   .landing {
-    padding-top: 7rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
   }
