@@ -10,9 +10,15 @@
     font-weight: 500 !important;
 }
 
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    border: none;
+}
+
 
 
 .discord-container {
+    margin-left: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +32,23 @@
 }
 
 .discord-container > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 37px;
     width: 37px;
 }
 
+
+
+@media screen and (max-width: 992px) {
+    .discord-container {
+        margin-left: 0;
+    }
+}
+  
+  @media screen and (max-width: 600px) {
+    .discord-container {
+        margin-left: 0;
+    }
+  }
