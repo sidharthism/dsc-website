@@ -39,9 +39,9 @@
 }
 
 .landing {
-  background: url("./assets/img/bg.png");
+  background: url("./assets/img/bg-1024.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 600px;
+  min-height: 100vh;
 }

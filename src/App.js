@@ -9,7 +9,7 @@ function App() {
       <section className="landing">
       <Navbar />
         <Button variant="success">
-          Join Us
+          JOIN NOW
         </Button>
       </section>
     </div>
