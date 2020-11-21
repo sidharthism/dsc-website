@@ -1,7 +1,76 @@
 .landing {
-    background: url("../../assets/img/bg-1024.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    min-height: 100vh;
+  padding-top: 7rem;
+  display: flex;
+  background: url("../../assets/img/bg-1024.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.landingLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  flex: 0.6;
+}
+
+.landingLeftHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LeftHeaderLogo {
+  position: relative;
+  right: 1rem;
+  bottom: 1rem;
+}
+.LeftHeaderLogo > img {
+  height: 5.5rem;
+}
+
+.LeftHeaderText {
+ 
+}
+
+.LeftHeaderText > h3 {
+  color: #666666;
+}
+.LeftHeaderText > h4 {
+  color: #737373;
+  float: left;
+}
+
+.landingLeft > .joinButton {
+  margin-top: 4rem;
+}
+
+
+.landingRight {
+  flex: 0.4;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .landing {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .landing {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

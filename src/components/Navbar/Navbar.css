@@ -10,7 +10,7 @@
     font-weight: 500 !important;
 }
 
-.navbar-toggler:focus, .navbar-toggler:active {
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     border: none;
 }
@@ -47,8 +47,8 @@
     }
 }
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .discord-container {
         margin-left: 0;
     }
-  }
+}
