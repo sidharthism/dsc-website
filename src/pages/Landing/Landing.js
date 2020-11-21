@@ -31,7 +31,7 @@ function Landing() {
 
             </div>
             <div className="landingRight">
-                <h2>Right</h2>
+                <h2>Mascots!!</h2>
             </div>
         </div>
     )

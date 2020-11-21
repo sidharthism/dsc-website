@@ -1,4 +1,5 @@
 .landing {
+  margin: 2rem;
   padding-top: 7rem;
   display: flex;
   background: url("../../assets/img/bg-1024.png");
@@ -41,6 +42,12 @@
 .LeftHeaderText > h4 {
   color: #737373;
   float: left;
+}
+
+.landingLeftInfo > h4 {
+  margin: 2rem;
+  padding-left: 8rem;
+  padding-right: 4rem;
 }
 
 .landingLeft > .joinButton {
