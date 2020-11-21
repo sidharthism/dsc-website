@@ -1,26 +1,27 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Team from './pages/Team/Team';
 import Navbar from './components/Navbar/Navbar';
+import Landing from './pages/Landing/Landing';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Switch>
-            <Route path="/team">
+    <Router>
+      <div className="App">
+          <Switch>
+              <Route path="/team">
+                <Navbar />
+                <Team />
+              </Route>
+            <Route path="/">
+              <Navbar />
+              <Landing />
             </Route>
-        </Switch>
-      </Router>
-      
-      <section className="landing">
-      <Navbar />
-        <Button variant="success">
-          JOIN NOW
-        </Button>
-      </section>
-    </div>
+          </Switch>
+      </div>
+    </Router>
   );
 }
 

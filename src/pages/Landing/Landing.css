@@ -1,0 +1,7 @@
+.landing {
+    background: url("../../assets/img/bg-1024.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
