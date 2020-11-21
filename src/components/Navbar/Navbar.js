@@ -13,7 +13,7 @@ import './Navbar.css'
 function Navigation(){
     return(
             <div className="container-fluid">
-                <Navbar expand="lg">
+                <Navbar expand="lg" fixed="top" style={ {"background":"white"} }>
                     <Navbar.Brand href="#home">
                         <img src={ logo } alt="Home"/>
                     </Navbar.Brand>
