@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 
 import logo from '../../assets/img/logo.svg'
+import logoFull from '../../assets/img/logo-full.png'
 
 import './Landing.css'
 
@@ -11,13 +12,15 @@ function Landing() {
         <div className="landing">
             <div className="landingLeft">
                 <div className="landingLeftHeader">
-                    <div className="LeftHeaderLogo">
+                    {/* <div className="LeftHeaderLogo">
                         <img src={logo} alt="dsc" />
                     </div>
                     <div className="LeftHeaderText">
                         <h3>Developer Students Club</h3>
                         <h4>MEC</h4>
-                    </div>
+                    </div> */}
+                    
+                    <img src={logoFull} alt="dsc" />
                 </div>
                 <div className="landingLeftInfo">
                     <h4>Helping students bridge the gap between theory and practice</h4>

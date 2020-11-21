@@ -32,9 +32,7 @@
   height: 5.5rem;
 }
 
-.LeftHeaderText {
- 
-}
+
 
 .LeftHeaderText > h3 {
   color: #666666;
@@ -71,6 +69,9 @@
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
+  }
+  .landingLeftHeader > img {
+    width: 100%;
   }
 }
 
